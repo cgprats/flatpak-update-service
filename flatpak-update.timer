@@ -1,0 +1,13 @@
+[Unit]
+Description=Run Flatpak Update Every 15-30 minutes and On Boot
+Requires=flatpak-update.service
+
+[Timer]
+Unit=flatpak-update.service
+OnBootSec=0m
+OnUnitInactiveSec=15m
+RandomizedDelaySec=15m
+AccuracySec=1s
+
+[Install]
+WantedBy=timers.target

@@ -1,5 +1,7 @@
 [Unit]
 Description=Flatpak Automatic Updates
+Requires=network-online.target
+After=network-online.target
 
 [Service]
 ExecStart=/usr/bin/flatpak update -y

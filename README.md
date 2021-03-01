@@ -1,2 +1,2 @@
 # flatpak-update-service
-Systemd Units to Automatically Run Flatpak Updates
+Systemd Units to Automatically Run Flatpak Updates on Boot

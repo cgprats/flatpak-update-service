@@ -6,4 +6,4 @@ sudo cp -v flatpak-background-update.timer /etc/systemd/system/flatpak-backgroun
 echo "Reloading Systemd Daemon"
 sudo systemctl daemon-reload
 echo "Enable flatpak-update.service if you wish to upgrade Flatpaks on Boot"
-echo "Enable flatpak-background-update.timer if you wish to upgrade Flatpaks on Daily while the System is Online"
+echo "Enable flatpak-background-update.timer if you wish to upgrade Flatpaks on a Daily Basis while the System is Online"

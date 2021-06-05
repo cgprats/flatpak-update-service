@@ -3,8 +3,8 @@ Description=Systemd timer to update Flatpak programs daily
 
 [Timer]
 OnCalendar=daily
-AccuracySec=12h
 Persistent=true
+RandomizedDelaySec=900
 Unit=flatpak-background-update.service
 
 [Install]
